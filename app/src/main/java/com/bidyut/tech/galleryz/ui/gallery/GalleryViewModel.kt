@@ -18,7 +18,9 @@ class GalleryViewModel : ViewModel() {
             val row = ArrayList<Item>()
             var rowRatios = 0f
             r!!.value!!.forEach { it: Result ->
-                val imageRatio = it.width!! / it.height!!.toFloat()
+                var imageRatio = it.width!! / it.height!!.toFloat()
+                if (imageRatio < 1) imageRatio = 1f
+                if (imageRatio > 1) imageRatio = 1.5f
                 val item = Item(
                         it.imageId as ItemId,
                         it.name!!,
