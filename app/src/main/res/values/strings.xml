@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Gallery Z</string>
+    <string name="sss">%d:%d</string>
 </resources>
