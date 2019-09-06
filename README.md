@@ -1,9 +1,8 @@
 # Asymmetrical Gallery Example
 
-An example asymmetrical grid gallery built on `RecyclerView` using the standard `GridLayoutManager`.
+An example asymmetrical grid gallery built on `RecyclerView`.
 
 ![](spanned.png)
 
-instead of the standard grid view
-
-![](standard.png)
+Video:
+![](video.mp4)
