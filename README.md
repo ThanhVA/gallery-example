@@ -5,4 +5,4 @@ An example asymmetrical grid gallery built on `RecyclerView`.
 ![](spanned.png)
 
 Video:
-![](video.mp4)
+[![Watch the video](spanned.png)](video.mp4)
